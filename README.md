@@ -1,59 +1,58 @@
 # Detection of Diabetic Retinopathy Using LBP
 
 ## Overview
-This project focuses on the detection of Diabetic Retinopathy using image processing and machine learning techniques. The system analyzes retinal fundus images and extracts texture-based features using the Local Binary Pattern (LBP) algorithm to assist in identifying signs of diabetic retinopathy.
+This project focuses on the detection of Diabetic Retinopathy using image processing techniques and Local Binary Pattern (LBP) feature extraction. The system analyzes retinal fundus images to identify patterns associated with diabetic retinopathy.
 
-The project aims to support early diagnosis and improve screening efficiency through automated image analysis.
+The project was developed as an academic mini project to explore computer vision and medical image analysis concepts.
 
 ---
 
 ## Features
 - Retinal image preprocessing
 - Feature extraction using Local Binary Pattern (LBP)
-- Image classification workflow
+- Texture-based image analysis
 - Detection support for diabetic retinopathy
-- Python-based implementation
-- Simple and lightweight machine learning pipeline
+- MATLAB-based implementation
+- Medical image processing workflow
 
 ---
 
 ## Technologies Used
-- Python
-- OpenCV
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Image Processing Techniques
-- Machine Learning Concepts
+- MATLAB
+- Image Processing Toolbox
+- Local Binary Pattern (LBP)
+- Digital Image Processing Techniques
+- Computer Vision Concepts
 
 ---
 
 ## Project Architecture
 
-1. Input retinal image dataset
+1. Input retinal image
 2. Image preprocessing
-   - Resizing
    - Grayscale conversion
    - Noise reduction
+   - Image enhancement
 3. Feature extraction using LBP
-4. Feature analysis and classification
-5. Prediction of diabetic retinopathy presence
+4. Texture analysis
+5. Detection and output generation
 
 ---
 
 ## Local Binary Pattern (LBP)
-LBP is a texture descriptor used in computer vision for feature extraction. It works by comparing neighboring pixel values with the center pixel and generating binary patterns that represent image textures.
 
-In this project, LBP is used to extract important retinal texture features that help identify abnormalities associated with diabetic retinopathy.
+LBP is a texture descriptor used in image processing and computer vision. It compares neighboring pixels with the center pixel and generates binary patterns that represent texture information.
+
+In this project, LBP helps extract retinal texture features useful for identifying diabetic retinopathy symptoms.
 
 ---
 
 ## Dataset
-The project uses retinal fundus images for training and testing purposes.
+The project uses retinal fundus images for analysis and testing.
 
 Dataset includes:
 - Normal retinal images
-- Images showing diabetic retinopathy symptoms
+- Retinal images affected by diabetic retinopathy
 
 ---
 
@@ -63,3 +62,55 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd your-repository-name
+```
+
+---
+
+## Run the Project
+
+Open the MATLAB project and run the main file:
+
+```matlab
+run main.m
+```
+
+---
+
+## Sample Workflow
+- Load retinal image
+- Apply preprocessing techniques
+- Extract LBP features
+- Analyze texture patterns
+- Generate detection result
+
+---
+
+## Results
+The project demonstrates how texture-based image processing techniques can assist in diabetic retinopathy detection using retinal images.
+
+---
+
+## Future Enhancements
+- Integration with Deep Learning models
+- Real-time detection system
+- Web-based interface
+- Edge-device deployment support
+- Improved accuracy using larger datasets
+
+---
+
+## Author
+Shivani Hawaldar
+
+Aspiring AI/ML and Cloud Engineer interested in Computer Vision, Machine Learning, and Cloud Technologies.
+
+---
+
+## License
+This project is developed for academic and educational purposes.
