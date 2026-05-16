@@ -1,4 +1,13 @@
 # Detection of Diabetic Retinopathy Using LBP
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
+[![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
+
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://en.wikipedia.org/wiki/Machine_learning)
+
+[![Computer Vision](https://img.shields.io/badge/Computer%20Vision-5C2D91?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+
+[![Image Processing](https://img.shields.io/badge/Image%20Processing-008080?style=for-the-badge&logo=opencv&logoColor=white)](https://en.wikipedia.org/wiki/Digital_image_processing)
 
 ## Overview
 This project focuses on the detection of Diabetic Retinopathy using image processing techniques and Local Binary Pattern (LBP) feature extraction. The system analyzes retinal fundus images to identify patterns associated with diabetic retinopathy.
